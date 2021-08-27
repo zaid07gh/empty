@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+body{
+    background-color: #e2e2e2;
+}
+.container{
+    position: absolute;
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, -1);
+    border-radius: 50px;
+    background-color: #fafafa;
+}
+.container i{
+    transition: .4s;
+}
+.container:hover i{
+    color: #f50057;
+}
+.container1{
+    position: absolute;
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, -1);
+    border-radius: 50px;
+    background-color: #fafafa;
+}
+.container1 i{
+    transition: .4s;
+}
+.container1:hover i{
+    color: #f50057;
+}
+.container2{
+    position: absolute;
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, -1);
+    border-radius: 50px;
+    background-color: #fafafa;
+}
+.container2 i{
+    transition: .4s;
+}
+.container2:hover i{
+    color: #f50057;
+}
+.fas{
+    color: #f50057;
+    transition: .4s;
+}
+.add-cart{
+    color: #fff;
+    position: absolute;
+    background-color: firebrick;
+    cursor: pointer;
+    text-align: center;
+}
+#first{
+    background-color: azure;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-right: 1000px;
+    margin-left: 50px;
+}
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 1000px;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav li span{
+    padding-left: 5px;
+}
+li a{
+    padding: 5px;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 20px
+}
+.car a{
+    background-color: royalblue;
+    color: #fff;
+    cursor: pointer;
+}
+.cart{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart1{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background-color: skyblue;
+    font-weight: normal;
+}
+td{
+    padding: 10px 6px;
+}
+td input{
+    width: 40px;
+    height: 20px;
+    padding: 4px;
+}
+td a{
+    color: tomato;
+    text-decoration: none;
+    font-size: 15px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+footer{
+    display: grid;
+    grid-template-columns: 300px 250px 300px 250px 200px;
+    grid-auto-rows: minmax(20px, auto);
+    border: 1px dashed;
+    margin-top: 60px;
+}
+.f2{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #636e72;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    font-size: 13px;
+    text-align: center;
+}
+.f3{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #636e72;
+    grid-column: 2/4;
+    grid-row: 4/5;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*----------CART PAGE----------*/
+
+.products-container{
+    max-width:  650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.products-container ion-icon {
+    font-size: 20px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    padding-bottom: 0px;
+    margin: 0 auto;
+}
+.product-title{
+    width: 45%;
+    text-align: center;
+    border-bottom: 4px solid lightgray;
+    display: flex;
+    align-items: center;
+
+
+}
+.quantity{
+    width: 25%;
+    border-bottom: 4px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    width: 15%;
+    border-bottom: 4px solid lightgray;
+    display: flex;
+    align-items: center;
+
+}
+.total{
+    width: 15%;
+    border-bottom: 4px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.product{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketTotalTitle{
+    width: 30%;
+}
+.basketTotal{
+    width: 15%;
+}

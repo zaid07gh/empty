@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>shopping</title>
+        <meta name="description" content="this is the description">
+        <style>
+            a:hover{
+                color: #48dbfb;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="gmc\css\shop styles.css"/>
+        <script src="https://kit.fontawesome.com/e2491a4e64.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div id="first">
+            <nav>
+                <ul>
+                    <li><a style="font-size: 20px; text-decoration: none;" href="shopping cart.html">Home</a></li>&nbsp;&nbsp;&nbsp;
+                    <li><a style="font-size: 20px; text-decoration: none;" href="#about info">about</a></li>&nbsp;&nbsp;&nbsp;
+                    <li class="car">
+                        <a href="cart.html">
+                            <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        <header>
+                <h1>Shopping Cart</h1>
+                <img style="height: 40px; width: 40px;" src="shop.jpg">
+        </header>
+        </div>
+        <div class="cart">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart1">
+                        <img style="height: 150px; width: 150px; margin: 10px;"src="BROWNTSHIRT.jpg">&nbsp;&nbsp;
+                        <div>
+                            <p>BROWN TSHIRT</p>
+                            <small> price : 37.000 dt</small>&nbsp;
+                            <br>
+                            <br>
+                            <div class="container">
+                                <i onclick="Toggle()" id="btn" class="far fa-heart"></i>
+                            </div>
+                            <br>
+                            <br>
+                            <a class="delete-cart" href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <a class="add-cart" href="#">Add Cart</a> 
+                </td>
+                <td> 37.000 dt</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart1">
+                        <img style="height: 150px; width: 150px; margin: 10px;"src="MENJEANS.jpg">&nbsp;&nbsp;
+                        <div>
+                            <p>MEN JEANS </p>
+                            <small> price : 60.000 dt</small>&nbsp;
+                            <br>
+                            <br>
+                            <div class="container1">
+                                <i onclick="Toggle1()" id="btn1" class="far fa-heart"></i>
+                            </div>
+                            <br>
+                            <br>
+                            <a class="delete-cart" href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <a class="add-cart" href="#">Add Cart</a> 
+                </td>
+                <td> 60.000 dt</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart1">
+                        <img style="height: 150px; width: 150px; margin: 10px;"src="WOMENBAG.jpg">&nbsp;&nbsp;
+                        <div>
+                            <p>WOMEN BAG</p>
+                            <small> price : 45.000 dt</small>&nbsp;
+                            <br>
+                            <br>
+                            <div class="container2">
+                                <i onclick="Toggle2()" id="btn2" class="far fa-heart"></i>
+                            </div>
+                            <br>
+                            <br>
+                            <a class="delete-cart" href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <a class="add-cart" href="#">Add Cart</a> 
+                </td>
+                <td> 45.000 dt</td>
+            </tr>
+        </table>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="gmc\js\app.js"></script>
+    </body>
+    <footer>
+        <div class="footer">
+            <a name="about info"></a>
+            </div>
+            <div class="f2">
+                This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser. 
+            </div>
+            <div class="f3">
+                contact : 50345943
+            </div>
+        </div>
+    </footer>
+</html>
